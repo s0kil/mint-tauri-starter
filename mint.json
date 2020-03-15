@@ -1,9 +1,12 @@
 {
   "name": "mint-tauri-starter",
-  "source-directories": ["source"],
-  "test-directories": ["tests"],
   "application": {
     "name": "Mint + Tauri",
     "icon": "public/icon.png"
+  },
+  "source-directories": ["source"],
+  "test-directories": ["tests"],
+  "external": {
+    "stylesheets": ["source/common.css"]
   }
 }
