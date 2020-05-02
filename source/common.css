@@ -5,9 +5,8 @@ body {
 }
 
 body {
-  --min-window-size: 600px;
-  min-width: var(--min-window-size);
-  min-height: calc(var(--min-window-size) / 2);
+  min-width: 800px;
+  min-height: 600px;
   overflow: scroll;
 }
 
