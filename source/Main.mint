@@ -7,13 +7,13 @@ component Main {
     justify-content: center;
     align-items: center;
     display: flex;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
   }
 
   fun render : Html {
     <div::base>
-      <{ "Hello Mint + Tauri!" }>
+      "Hello Mint + Tauri!"
     </div>
   }
 }

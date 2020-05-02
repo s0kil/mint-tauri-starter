@@ -7,6 +7,9 @@
   "source-directories": ["source"],
   "test-directories": ["tests"],
   "external": {
-    "stylesheets": ["source/common.css"]
+    "stylesheets": [
+      "source/common.css",
+      "node_modules/modern-normalize/modern-normalize.css"
+    ]
   }
 }

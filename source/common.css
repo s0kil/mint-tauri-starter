@@ -1,3 +1,19 @@
+html,
 body {
-  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  --min-window-size: 600px;
+  min-width: var(--min-window-size);
+  min-height: calc(var(--min-window-size) / 2);
+  overflow: scroll;
+}
+
+/* Any `div` Without A `class` Attribute Will Inherit `body` Width And Height */
+/* This Is Because, Mint Creates Two `div` Elements That Are Parents Of The `Main.render` Component */
+body div:not([class]) {
+  width: 100%;
+  height: 100%;
 }
